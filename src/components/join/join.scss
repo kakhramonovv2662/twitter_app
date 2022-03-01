@@ -1,0 +1,158 @@
+.wrapper {
+    display: flex;
+
+    &__content {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    &__logo {
+        display: block;
+        margin-bottom: 57px;
+    }
+
+    &__first-title {
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 98px;
+    }
+
+    &__second-title {
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 49px;
+        margin-bottom: 15px;
+    }
+
+    &__sign-btn {
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        border: 1px solid #E4EAED;
+        box-sizing: border-box;
+        border-radius: 42px;
+        padding: 15px;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 15px;
+
+        &:active {
+            background-color: #222;
+            color: #fff;
+        }
+    }
+
+    &__text-about {
+        margin-bottom: 15px;
+    }
+
+    &__links {
+        margin-left: 3px;
+        margin-right: 3px;
+        text-decoration: none;
+        color: rgb(0, 174, 255);
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:active {
+            text-decoration: underline;
+            opacity: 0.8;
+        }
+    }
+}
+
+.nav {
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+    top: -30px;
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+    } 
+
+    &__item {
+        margin-right: 15px;
+    }
+
+    &__link {
+        display: block;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+        color: #000000;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:active {
+            text-decoration: underline;
+            opacity: 0.8;
+        }
+    }
+}
+
+.btn {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    border: 1px solid #E4EAED;
+    box-sizing: border-box;
+    border-radius: 42px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 15px;
+
+    &:active {
+        background-color: #222;
+        color: #fff;
+    }
+
+    &__img {
+        display: block;
+        margin-right: 5px;
+        border-radius: 50px;
+    }
+}
+
+.apple-btn {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    border: 1px solid #E4EAED;
+    box-sizing: border-box;
+    border-radius: 42px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 15px;
+
+    &:active {
+        background-color: #222;
+        color: #fff;
+    }
+
+    &__img {
+        display: block;
+        margin-right: 5px;
+        border-radius: 50px;
+    }
+}

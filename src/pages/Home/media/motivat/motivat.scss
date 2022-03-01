@@ -1,0 +1,87 @@
+.motivat {
+  position: absolute;
+  z-index: 101;
+  max-width: 630px;
+  width: 100%;
+  left: calc(50% - 271px);
+  top: 545px;
+  //   margin-left: calc(50% - 274px);
+
+  &__pinned {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #536471;
+    margin-left: 80px;
+    margin-bottom: 13px;
+  }
+
+  &__all-wrapper {
+    display: flex;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  &__people-img {
+    display: block;
+    margin-right: 18px;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+  }
+
+  &__name {
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 10px;
+  }
+
+  &__dotted {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 0;
+    position: absolute;
+    z-index: 10;
+    left: 520px;
+    top: -20px;
+  }
+
+  &__username {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.6;
+  }
+
+  &__text {
+    max-width: 550px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #536471;
+  }
+
+  &__second-text {
+    line-height: 44px;
+  }
+}

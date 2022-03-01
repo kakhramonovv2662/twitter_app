@@ -1,0 +1,106 @@
+.twitter {
+  width: 330px;
+  height: 100vh;
+  border-right: 1px solid #cccbcb;
+  padding-top: 30px;
+
+  &__content {
+    max-width: 270px;
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  &__logo {
+    display: block;
+    margin-bottom: 35px;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item {
+    padding-bottom: 25px;
+  }
+
+  &__img-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  &__pages-img {
+    display: block;
+    margin-right: 20px;
+  }
+
+  &__btn {
+    max-width: 230px;
+    width: 100%;
+    padding: 16px;
+    background: #1d9bf0;
+    border-radius: 27.5px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      background-color: #fff;
+      color: #1d9bf0;
+      border: 1px solid #1d9bf0;
+      padding: 15px;
+    }
+  }
+
+  &__about-child {
+    display: flex;
+    align-items: center;
+    margin-top: 185px;
+  }
+
+  &__name {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 5px;
+    padding-right: 15px;
+  }
+
+  &__username {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+    padding-left: 5px;
+    padding-right: 15px;
+  }
+
+  &__dotted {
+    position: relative;
+    z-index: 1;
+    font-size: 45px;
+    top: -15px;
+  }
+}
+
+.activeLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}

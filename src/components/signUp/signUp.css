@@ -1,0 +1,142 @@
+.signUp {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgba(0, 0, 0, 0.397);
+}
+
+.signUp__close-btn {
+  font-size: 50px;
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  right: 50px;
+  background-color: rgba(90, 86, 86, 0);
+  border: none;
+  color: #363232;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.signUp__close-btn:hover {
+  background-color: rgba(85, 90, 88, 0.226);
+  padding: 10px 20px;
+  opacity: 0.9;
+}
+
+.signUp__close-btn:active {
+  background-color: rgba(85, 90, 88, 0.226);
+  padding: 10px 20px;
+  opacity: 0.7;
+}
+
+.signUp__content {
+  max-width: 400px;
+  width: 100%;
+  padding: 15px;
+  background-color: #fff;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 20px 0 #0073ff;
+          box-shadow: 2px 2px 20px 0 #0073ff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.signUp__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0077ff;
+  padding: 10px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.signUp__images {
+  display: block;
+  margin-right: 8px;
+  border-radius: 50px;
+}
+
+.signUp__text {
+  color: #fff;
+}
+
+.signUp__title {
+  margin-bottom: 10px;
+}
+
+.signUp__about-section {
+  max-width: 450px;
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.signUp__about-text {
+  font-size: 12.5px;
+  margin-bottom: 13px;
+}
+
+.signUp__month-select {
+  max-width: 150px;
+  width: 100%;
+  padding: 8px;
+  margin-right: 9px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background-color: #7174ff;
+}
+
+.signUp__month-select:optional {
+  color: #fff;
+}
+
+.signUp__day-select {
+  max-width: 80px;
+  width: 100%;
+  padding: 8px;
+  margin-right: 9px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background-color: #7174ff;
+}
+
+.signUp__day-select:optional {
+  color: #fff;
+}
+
+.signUp__year-select {
+  max-width: 100px;
+  width: 100%;
+  padding: 8px;
+  margin-right: 9px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background-color: #7174ff;
+}
+
+.signUp__year-select:optional {
+  color: #fff;
+}
+
+.modal-open {
+  display: block;
+}
+/*# sourceMappingURL=signUp.css.map */

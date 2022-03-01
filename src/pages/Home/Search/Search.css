@@ -1,0 +1,112 @@
+.search {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.search__input {
+  margin-bottom: 30px;
+  padding: 13px;
+  border-radius: 20px;
+  border: none;
+  background-color: #eff3f4;
+}
+
+.search__images {
+  margin-bottom: 15px;
+}
+
+.search__title {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+
+.search__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.search__all-wrapper {
+  max-width: 60px;
+  width: 100%;
+  margin-left: 5px;
+  font-size: 13px;
+  margin-right: 55px;
+}
+
+.search__btn {
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+
+.search__btn:hover {
+  opacity: 0.8;
+}
+
+.search__btn:active {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.setting {
+  margin-top: 20px;
+}
+
+.setting__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.setting__title {
+  font-size: 24px;
+  line-height: 32px;
+  margin-right: 50px;
+}
+
+.setting__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.setting__items {
+  font-size: 16px;
+  line-height: 21px;
+  color: #393b41;
+  opacity: 0.6;
+}
+
+.setting__revo {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.setting__tweet {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #393b41;
+  opacity: 0.6;
+}
+
+.setting__dotted {
+  display: block;
+  font-size: 35px;
+  margin-left: 60px;
+}
+/*# sourceMappingURL=Search.css.map */

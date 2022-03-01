@@ -1,0 +1,144 @@
+.AppleSignUp {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.397);
+}
+
+.AppleSignUp__close-btn {
+  font-size: 50px;
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  right: calc(50% - 550px);
+  background-color: rgba(90, 86, 86, 0);
+  border: none;
+  color: #363232;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.AppleSignUp__close-btn:hover {
+  background-color: rgba(85, 90, 88, 0.226);
+  padding: 10px 20px;
+  opacity: 0.9;
+}
+
+.AppleSignUp__close-btn:active {
+  background-color: rgba(85, 90, 88, 0.226);
+  padding: 10px 20px;
+  opacity: 0.7;
+}
+
+.AppleSignUp__content {
+  max-width: 400px;
+  width: 100%;
+  padding: 15px;
+  background-color: #fff;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 20px 0 #0073ff;
+          box-shadow: 2px 2px 20px 0 #0073ff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.AppleSignUp__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0077ff;
+  padding: 10px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.AppleSignUp__images {
+  display: block;
+  margin-right: 8px;
+  border-radius: 50px;
+}
+
+.AppleSignUp__text {
+  color: #fff;
+}
+
+.AppleSignUp__title {
+  margin-bottom: 10px;
+}
+
+.AppleSignUp__about-section {
+  max-width: 450px;
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.AppleSignUp__about-text {
+  font-size: 12.5px;
+  margin-bottom: 13px;
+}
+
+.AppleSignUp__month-select {
+  max-width: 150px;
+  width: 100%;
+  padding: 8px;
+  margin-right: 9px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background-color: #7174ff;
+}
+
+.AppleSignUp__month-select:optional {
+  color: #fff;
+}
+
+.AppleSignUp__day-select {
+  max-width: 80px;
+  width: 100%;
+  padding: 8px;
+  margin-right: 9px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background-color: #7174ff;
+}
+
+.AppleSignUp__day-select:optional {
+  color: #fff;
+}
+
+.AppleSignUp__year-select {
+  max-width: 100px;
+  width: 100%;
+  padding: 8px;
+  margin-right: 9px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background-color: #7174ff;
+}
+
+.AppleSignUp__year-select:optional {
+  color: #fff;
+}
+
+.apple-open {
+  display: block;
+}
+/*# sourceMappingURL=AppleSign.css.map */

@@ -1,0 +1,80 @@
+.profile {
+  width: 630px;
+  position: relative;
+  z-index: 101;
+  left: -10px;
+  height: 100vh;
+  border-right: 1px solid #d8d8d8;
+
+  &__header {
+    width: 625px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding: 10px;
+    position: relative;
+    left: -5px;
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  &__home-title {
+    font-size: 24px;
+    line-height: 32px;
+    padding-right: 490px;
+  }
+
+  &__commit {
+    display: flex;
+    margin-top: 10px;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+  }
+
+  &__mavlonov-img {
+    margin-right: 10px;
+  }
+
+  &__input {
+    margin-top: 15px;
+    margin-left: 5px;
+    border: none;
+    padding: 10px;
+
+    &:focus {
+      border: none;
+    }
+    margin-bottom: 20px;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  &__small-icon {
+    display: block;
+    margin-right: 10px;
+  }
+
+  &__tweet-btn {
+    margin-left: 280px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: #1da1f2;
+    border: none;
+    color: #fff;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    &:active {
+      background-color: #fff;
+      border: 1px solid #1da1f2;
+      color: #1da1f2;
+      padding: 7px 15px;
+    }
+  }
+}

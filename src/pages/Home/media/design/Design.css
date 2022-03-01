@@ -1,0 +1,22 @@
+.design {
+  position: relative;
+  z-index: 1;
+  top: -11px;
+  height: 300px;
+  background-color: #0077ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.design__text {
+  font-size: 50px;
+  color: #fff;
+}
+/*# sourceMappingURL=Design.css.map */
